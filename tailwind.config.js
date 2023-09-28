@@ -61,7 +61,12 @@ module.exports = {
       width: {
         "96": "442px",
         "88": "334px",
-      }
+      },
+      borderRadius: {
+        "border-radius-65": "65px",
+        "border-radius-30": "30px",
+        "border-radius-9999": "9999px"
+      },
   },
   plugins: [],
 }
