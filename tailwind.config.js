@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "twitter-blue": "#1D9BF0",
         "twitter-blue-hover": "#1871CA",
+        "twitter-blue-disabled": "#1E5D87",
         "blue-wash": "rgba(117, 190, 239, 0.20)",
         "button-stroke": "#546A7A",
         "searchbar-fill": "#212327",
@@ -57,6 +58,10 @@ module.exports = {
         "4xl": "4rem",
         "3.2xl":"1.9rem",
     },
+      width: {
+        "96": "442px",
+        "88": "334px",
+      }
   },
   plugins: [],
 }
