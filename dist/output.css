@@ -538,17 +538,89 @@ video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.bottom-7 {
+  bottom: 1.75rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
 .bottom-1 {
   bottom: 0.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.bottom-9 {
+  bottom: 2.25rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.right-8 {
+  right: 2rem;
 }
 
 .m-10 {
   margin: 2.5rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
 }
 
 .mb-10 {
@@ -591,6 +663,10 @@ video {
   margin-right: 1rem;
 }
 
+.mr-40 {
+  margin-right: 10rem;
+}
+
 .mr-9 {
   margin-right: 2.25rem;
 }
@@ -619,12 +695,16 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
+.mt-auto {
+  margin-top: auto;
 }
 
 .flex {
@@ -635,8 +715,20 @@ video {
   display: inline-flex;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-14 {
   height: 3.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-56 {
@@ -647,8 +739,16 @@ video {
   height: 1.5rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-9 {
   height: 2.25rem;
+}
+
+.h-\[38px\] {
+  height: 38px;
 }
 
 .h-\[39px\] {
@@ -663,12 +763,25 @@ video {
   height: 58px;
 }
 
+.h-\[868px\] {
+  height: 868px;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-14 {
@@ -697,6 +810,10 @@ video {
 
 .w-88 {
   width: 334px;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .w-96 {
@@ -734,6 +851,35 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-shrink-0 {
@@ -788,6 +934,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-32 {
+  gap: 8rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -814,6 +964,14 @@ video {
 
 .gap-\[2px\] {
   gap: 2px;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-y-1 {
@@ -876,6 +1034,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -893,6 +1055,11 @@ video {
 .border-neutral-700 {
   --tw-border-opacity: 1;
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
+}
+
+.border-neutral-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity));
 }
 
 .border-twitter-blue {
@@ -930,12 +1097,24 @@ video {
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-5 {
@@ -1023,6 +1202,10 @@ video {
 
 .pb-\[16px\] {
   padding-bottom: 16px;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .pl-4 {
@@ -1195,6 +1378,10 @@ video {
   outline-offset: 2px;
 }
 
+.hover\:pointer-events-auto:hover {
+  pointer-events: auto;
+}
+
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
@@ -1209,6 +1396,11 @@ video {
   pointer-events: none;
 }
 
+.disabled\:bg-neutral-200:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
 .disabled\:bg-neutral-500:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
@@ -1221,4 +1413,28 @@ video {
 
 .disabled\:opacity-25:disabled {
   opacity: 0.25;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .md\:gap-52 {
+    gap: 13rem;
+  }
+
+  .md\:gap-48 {
+    gap: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:gap-72 {
+    gap: 18rem;
+  }
 }
