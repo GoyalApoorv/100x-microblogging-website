@@ -583,6 +583,14 @@ video {
   right: 1.5rem;
 }
 
+.right-44 {
+  right: 11rem;
+}
+
+.right-64 {
+  right: 16rem;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -885,6 +893,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .flex-1 {
