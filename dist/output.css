@@ -716,6 +716,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -803,6 +807,10 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-\[355px\] {
+  height: 355px;
 }
 
 .w-10 {
@@ -897,6 +905,10 @@ video {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-\[590px\] {
+  width: 590px;
 }
 
 .flex-1 {
@@ -1143,6 +1155,11 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-\[\#40596A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 89 106 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
